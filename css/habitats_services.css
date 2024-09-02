@@ -24,9 +24,13 @@
     .services__card__child_entertainment,
     .services__card__small_train,
     .services__card__restaurant {
-        display: grid;
-        width: min(120px, 150px);
-        height: 180px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;        
+        width: 120px;
+        height: 200px;
+        /* width: min(120px, 150px); */
+        /* height: 150px; */
         background-color: rgb(177, 148, 112);
         border: 5px inset rgb(67, 118, 108);
         box-shadow: 
@@ -66,6 +70,8 @@
     .services__card__child_entertainment__img,
     .services__card__small_train__img,
     .services__card__restaurant__img {
+        display: flex;
+        justify-content: top;
         width: 100%;
         border-radius: 8px 8px 0 0;
         border-bottom: 2px solid rgba(248, 250, 229, 0.75);
@@ -78,9 +84,17 @@
     .services__card__footer__child_entertainment__a,
     .services__card__footer__small_train__a,
     .services__card__footer__restaurant__a {
+        width: 75%;
+        margin: 0 auto;
         color: rgb(248, 250, 229);
         font-size: small;
+        font-weight: 600;
         text-align: center;
+        border: 1px solid rgb(50,25,5);
+        background-color:rgb(118, 69, 59);
+        border-radius: 25px;
+        padding: 5px;
+
     } 
 }
 
@@ -287,6 +301,7 @@
         .services__card__small_train__img,
         .services__card__restaurant__img {
             width:min(100%, 200px);
+            height: 100%;
             border-right: 2px solid rgba(248, 250, 229, 0.75);
             border-bottom: none;
             border-radius:unset;
