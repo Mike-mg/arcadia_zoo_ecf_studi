@@ -1,0 +1,307 @@
+
+/* Habitats and services */
+
+@media screen and (max-width: 2600px) {
+    
+    .container_habitats__header__h4,
+    .container_services__header__h4 {
+        width: min(225px, 275px);
+        margin: auto;
+        text-align: center;
+        background-color: rgb(67,118,108);
+        border: 3px inset rgb(248, 250, 229);
+        border-radius: 15px;
+        box-shadow: rgb(50, 25, 5) 0 0 5px 2px inset;
+        color:rgb(248,250,229);
+        padding:10px 0;
+        text-shadow:1px 1px 1px rgb(50,25,5);
+    }
+
+    .habitats__card__savane,
+    .habitats__card__felin,
+    .habitats__card__jungle,
+    .services__card__visit,
+    .services__card__child_entertainment,
+    .services__card__small_train,
+    .services__card__restaurant {
+        display: grid;
+        width: min(120px, 150px);
+        height: 180px;
+        background-color: rgb(177, 148, 112);
+        border: 5px inset rgb(67, 118, 108);
+        box-shadow: 
+        0px 10px 15px -7px rgb(50,25,5),
+        0px 0px 3px 1px rgb(50,25,5) inset;
+        border-radius: 10px;
+        transition: transform 0.25s;
+        }
+
+    .habitats__card__savane:hover,
+    .habitats__card__felin:hover,
+    .habitats__card__jungle:hover,
+    .services__card__visit:hover,
+    .services__card__child_entertainment:hover,
+    .services__card__small_train:hover,
+    .services__card__restaurant:hover {
+        transform: scale(1.5);
+        transition: transform 0.25s;
+    }
+
+    .habitats__card__header__savane__h4,
+    .habitats__card__header__felin__h4,
+    .habitats__card__header__jungle__h4,
+    .services__card__header__visit__h4,
+    .services__card__header__child_entertainment__h4,
+    .services__card__header__small_train__h4,
+    .services__card__header__restaurant__h4 {
+        color: rgb(50,25,5);
+        text-align: center;
+        padding: 5px;
+    }
+
+    .habitats__card__savane__img,
+    .habitats__card__felin__img,
+    .habitats__card__jungle__img,
+    .services__card__visit__img,
+    .services__card__child_entertainment__img,
+    .services__card__small_train__img,
+    .services__card__restaurant__img {
+        width: 100%;
+        border-radius: 8px 8px 0 0;
+        border-bottom: 2px solid rgba(248, 250, 229, 0.75);
+    }
+
+    .habitats__card__footer__savane__a,
+    .habitats__card__footer__felin__a,
+    .habitats__card__footer__jungle__a,
+    .services__card__footer__visit__a,
+    .services__card__footer__child_entertainment__a,
+    .services__card__footer__small_train__a,
+    .services__card__footer__restaurant__a {
+        color: rgb(248, 250, 229);
+        font-size: small;
+        text-align: center;
+    } 
+}
+
+@media screen and (max-width: 425px) {
+
+    .container_habitats,
+    .container_services {
+        margin: 100px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 75px;
+        color: rgb(50, 25, 5);
+        padding: 50px 10px;
+        background-color: rgba(248,250,229,0.8);
+        box-shadow: rgb(50, 25, 5) 0 0 10px 2px;
+        backdrop-filter: blur(5px);
+    } 
+
+    .habitats__cards,
+    .services__cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        grid-gap: 30px;
+        place-items: center;
+        padding: 0 25px;
+    }
+
+    .habitats__card__savane {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .habitats__card__jungle {
+        grid-row: 1;
+        grid-column: 2;
+    }
+    
+    .habitats__card__felin {
+        grid-row: 2;
+        grid-column: 1/3;
+    }
+
+}
+
+@media screen and (min-width: 426px) and (max-width: 576px) {
+
+    .container_habitats,
+    .container_services {
+        margin: 100px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 75px;
+        color: rgb(50, 25, 5);
+        padding: 50px 10px;
+        background-color: rgba(248,250,229,0.8);
+        box-shadow: rgb(50, 25, 5) 0 0 10px 2px;
+        backdrop-filter: blur(5px);
+    } 
+
+    .habitats__cards,
+    .services__cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        place-items: center;
+        column-gap: 10px;
+        row-gap: 25px;
+        padding: 0 25px;
+    }
+
+    .services__card__visit {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .services__card__child_entertainment {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .services__card__small_train {
+        grid-row: 2;
+        grid-column: 1;
+    }
+
+    .services__card__restaurant {
+        grid-row: 2;
+        grid-column: 2;
+    }
+
+}
+
+@media screen and (min-width: 576px) and (max-width:1024px) {
+
+    .container_habitats,
+    .container_services {
+        margin: 100px 0;
+        display: flex;
+        flex-direction: column;
+        gap: 75px;
+        color: rgb(50, 25, 5);
+        background-color: rgba(248,250,229,0.9);
+        box-shadow: rgb(50, 25, 5) 0 0 10px 2px;;
+        padding: 50px 0;
+        backdrop-filter: blur(5px);
+    } 
+
+    .habitats__cards,
+    .services__cards {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+        place-items: center;
+        column-gap: 10px;
+        row-gap: 25px;
+        padding: 0 25px;
+    }
+
+    .services__card__visit {
+        grid-row: 1;
+        grid-column: 1;
+    }
+
+    .services__card__child_entertainment {
+        grid-row: 1;
+        grid-column: 2;
+    }
+
+    .services__card__small_train {
+        grid-row: 1;
+        grid-column: 3;
+    }
+
+    .services__card__restaurant {
+        grid-row: 1;
+        grid-column: 4;
+    }
+
+}
+
+@media screen and (min-width:1025px) {
+
+    .container_habitats,
+    .container_services {
+        width: min(75%, 600px);
+        margin: 100px auto;
+        display: flex;
+        flex-direction: column;
+        gap: 75px;
+        color: rgb(50, 25, 5);
+        padding: 50px 0;
+        background-color: rgba(248,250,229,0.8);
+        box-shadow: 
+        inset rgb(50, 25, 5) 0 0 2px 1px,
+        rgb(248,250,229) 0 0 0px 2px;
+        border: 3px inset rgb(248,250,229);
+        backdrop-filter: blur(5px);
+        border-radius: 15px;
+    }
+
+    .habitats__cards,
+    .services__cards {
+        display: grid;
+        justify-content: center;
+        row-gap: 25px;
+    }
+
+    .habitats__card__savane,
+    .habitats__card__felin,
+    .habitats__card__jungle,
+    .services__card__visit,
+    .services__card__child_entertainment,
+    .services__card__small_train,
+    .services__card__restaurant {
+        width: 350px;
+        height: auto;
+        display: grid;
+        place-items: center;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto-fill auto-fill;
+        background-color: rgb(177, 148, 112);
+        border: 5px inset rgb(67, 118, 108);
+        box-shadow: 
+        0px 10px 15px -7px rgb(50,25,5),
+        0px 0px 5px 2px rgb(50,25,5) inset;
+        border-radius: 10px;
+        transition: transform 0.25s;
+        }
+
+        .habitats__card__header__savane__h4,
+        .habitats__card__header__felin__h4,
+        .habitats__card__header__jungle__h4,
+        .services__card__header__visit__h4,
+        .services__card__header__child_entertainment__h4,
+        .services__card__header__small_train__h4,
+        .services__card__header__restaurant__h4 {
+            grid-column: 2;
+            grid-row: 1;
+        }
+    
+        .habitats__card__savane__img,
+        .habitats__card__felin__img,
+        .habitats__card__jungle__img,
+        .services__card__visit__img,
+        .services__card__child_entertainment__img,
+        .services__card__small_train__img,
+        .services__card__restaurant__img {
+            width:min(100%, 200px);
+            border-right: 2px solid rgba(248, 250, 229, 0.75);
+            border-bottom: none;
+            border-radius:unset;
+            grid-column:1;
+            grid-row: 1/3;
+        }
+    
+        .habitats__card__footer__savane__a,
+        .habitats__card__footer__felin__a,
+        .habitats__card__footer__jungle__a,
+        .services__card__footer__visit__a,
+        .services__card__footer__child_entertainment__a,
+        .services__card__footer__small_train__a,
+        .services__card__footer__restaurant__a {
+            grid-column: 2;
+            grid-row: 2;
+        } 
+}
