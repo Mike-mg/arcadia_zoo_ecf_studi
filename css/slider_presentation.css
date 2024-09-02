@@ -23,7 +23,7 @@
         backdrop-filter: blur(5px);
     }
 
-    .container_slider__header__h4 {
+    .header__h3 {
         width: min(225px, 275px);
         margin: auto;
         text-align: center;
@@ -107,7 +107,7 @@
         border-radius: 15px;
     }
 
-    .container_slider__header__h4 {
+    .header__h3 {
         width: min(225px, 275px);
         margin: auto;
         text-align: center;
