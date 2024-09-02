@@ -35,12 +35,12 @@
         font-size: 14px;
         padding: 25px;
         background-color: rgba(248,250,229,0.8);
-        box-shadow: 
-        inset rgb(50, 25, 5) 0 0 2px 1px,
-        rgb(248,250,229) 0 0 0px 2px;
-        border: 3px inset rgb(248,250,229);
+        border: 5px inset rgb(248,250,229);
         backdrop-filter: blur(5px);
         border-radius: 15px;
+        box-shadow:
+        inset 0 0 3px 1px rgb(50,25,5),
+        0 0 10px 5px rgb(50,25,5);
     }
 
     .presentation h2 {
