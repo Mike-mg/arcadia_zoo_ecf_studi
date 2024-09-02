@@ -36,6 +36,7 @@
         font-weight: 600;
         border-top: 1px solid rgb(248, 250, 229);
         border-bottom: 1px solid rgb(248, 250, 229);
+    }
     
 
     .footer__fieldset_internal>legend::before,
