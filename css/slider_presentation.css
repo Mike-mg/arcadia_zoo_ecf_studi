@@ -149,6 +149,7 @@
 
     .slider_container__slider__card img {
         width: min(100%, 350px);
+        height: auto;
         margin: 25px 0;
         border-radius: 15px;
         border: 2px inset rgb(248,250,229);
