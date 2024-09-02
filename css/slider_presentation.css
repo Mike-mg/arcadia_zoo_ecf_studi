@@ -38,7 +38,7 @@
 
     .slider_wrap {
         overflow: hidden;
-        width: 100%;
+        width: min(300px, 100%);
         margin: auto;
         background-color: rgba(50, 25, 5, 0.25);
         border: 3px inset rgb(248, 250, 229);
@@ -65,8 +65,8 @@
     }
 
     .slider_container__slider__card img {
-        width: min(100%, 275px);
-        height: auto;
+        width: 220px;
+        height: 146px;
         margin: 25px 0;
         border-radius: 15px;
         border: 2px inset rgb(248,250,229);
@@ -149,8 +149,8 @@
     }
 
     .slider_container__slider__card img {
-        width: min(100%, 350px);
-        height: auto;
+        width: 300px;
+        height: 200px;
         margin: 25px 0;
         border-radius: 15px;
         border: 2px inset rgb(248,250,229);

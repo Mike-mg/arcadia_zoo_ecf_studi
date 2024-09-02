@@ -63,21 +63,6 @@
         padding: 5px;
     }
 
-    .habitats__card__savane__img,
-    .habitats__card__felin__img,
-    .habitats__card__jungle__img,
-    .services__card__visit__img,
-    .services__card__child_entertainment__img,
-    .services__card__small_train__img,
-    .services__card__restaurant__img {
-        display: flex;
-        justify-content: top;
-        width: 100%;
-        height: auto;
-        border-radius: 8px 8px 0 0;
-        border-bottom: 2px solid rgba(248, 250, 229, 0.75);
-    }
-
     .habitats__card__footer__savane__a,
     .habitats__card__footer__felin__a,
     .habitats__card__footer__jungle__a,
@@ -301,9 +286,6 @@
         .services__card__child_entertainment__img,
         .services__card__small_train__img,
         .services__card__restaurant__img {
-            width:min(100%, 200px);
-            height: 100%;
-            height: auto;
             border-right: 2px solid rgba(248, 250, 229, 0.75);
             border-bottom: none;
             border-radius:unset;
