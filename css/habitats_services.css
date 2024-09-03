@@ -241,7 +241,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 40px;
+        gap: 25px;
     }
 
     .habitats__card__savane,
@@ -314,7 +314,7 @@
         margin: 100px auto;
         display: flex;
         flex-direction: column;
-        gap: 75px;
+        gap: 50px;
         color: rgb(50, 25, 5);
         padding: 50px 20px;
         background-color: rgba(248,250,229,0.8);
@@ -345,7 +345,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 75px;
+        gap: 50px;
     }
 
     .habitats__card__savane,
