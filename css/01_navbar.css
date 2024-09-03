@@ -13,7 +13,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: rgb(177, 148, 112);
+        background-color: rgb(118, 69, 59);
         border-bottom: 4px ridge rgb(248, 250, 229);
         box-shadow: black 0px 0px 10px 5px;
         color: rgb(248,250,229);
@@ -38,6 +38,10 @@
     .nav__header__h1 {
         font-size: 18px;
         padding: 0 10px;
+        color: rgb(248,250,229);
+        text-decoration: underline white;
+        text-underline-offset: 5px;
+        text-decoration-thickness: 3px;
     }
 
     .button_menu {
@@ -208,7 +212,7 @@
         font-weight: 600;
         width: 100%;
         padding: 5px 0;
-        border: 2px inset rgb(248, 250, 229);
+        border: 3px inset rgb(248, 250, 229);
         background-color: rgb(248,250,229);
         box-shadow:
         0 0 0 1px rgb(50,25,5) inset,
@@ -217,19 +221,23 @@
     }
 
     .nav__ul__li__a:hover {
-        box-shadow:
-        0 0 0 1px rgb(248,250,229) inset,
-        0 0 3px 1px rgb(50,25,5) inset,
-        0 0 5px 2px rgb(248,250,229);
         transition: box-shadow 0.25s ease-in-out;
         color:rgb(248,250,229);
-        background-color:rgb(118, 69, 59);
+        border: 3px inset rgb(248, 250, 229);
+        background-color:rgb(67, 118, 108);
+        box-shadow:
+        0 0 0 1px rgb(248,250,229) inset,
+        0 0 0 1px rgba(50,25,5,0.5),
+        0 0 10px 5px rgb(248,250,229);
     }
 
     .nav__ul__li__a:focus {
-        background-color: rgb(67, 118, 108);
-        box-shadow: 
-        0 0 5px 2px rgb(50,25,5) inset;
-        color:rgb(248,250,229)
+        transition: box-shadow 0.25s ease-in-out;
+        color:rgb(248,250,229);
+        border: 3px inset rgb(248, 250, 229);
+        background-color:rgb(67, 118, 108);
+        box-shadow:
+        0 0 5px 2px rgb(50,25,5) inset,
+        0 0 0 2px rgba(50,25,5,0.75);
     }
 }
