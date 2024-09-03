@@ -13,7 +13,7 @@
         display: flex;
         justify-content: space-between;
         align-items: center;
-        background-color: rgb(118, 69, 59);
+        background-color: rgb(177, 148, 112);
         border-bottom: 4px ridge rgb(248, 250, 229);
         box-shadow: black 0px 0px 10px 5px;
         color: rgb(248,250,229);
@@ -204,14 +204,15 @@
         display: flex;
         justify-content: center;
         text-decoration: none;
-        color: rgb(248,250,229);
-        text-shadow: -2px 1px 5px rgb(50,25,5);
+        color: rgb(50,25,5);
         font-weight: 600;
         width: 100%;
         padding: 5px 0;
         border: 2px inset rgb(248, 250, 229);
-        background-color: rgb(177, 148, 112);
-        box-shadow: 0 0 0 1px rgb(50,25,5) inset;
+        background-color: rgb(248,250,229);
+        box-shadow:
+        0 0 0 1px rgb(50,25,5) inset,
+        0 0 5px 1px rgb(50,25,5);
         border-radius: 25px;
     }
 
@@ -221,11 +222,14 @@
         0 0 3px 1px rgb(50,25,5) inset,
         0 0 5px 2px rgb(248,250,229);
         transition: box-shadow 0.25s ease-in-out;
+        color:rgb(248,250,229);
+        background-color:rgb(118, 69, 59);
     }
 
     .nav__ul__li__a:focus {
         background-color: rgb(67, 118, 108);
         box-shadow: 
         0 0 5px 2px rgb(50,25,5) inset;
+        color:rgb(248,250,229)
     }
 }
