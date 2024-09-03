@@ -95,6 +95,19 @@
         text-align: center;
     }
 
+    .child_animation img {
+        width: 150px;
+        border-radius: 50%;
+        border: 3px solid rgb(248,250,229);
+    }
+    .child_animation aside {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 25px;
+        border: 1px solid red;
+    }
+
     .visit_hour aside p:not(:last-child),
     .visit_day aside p:not(:last-child),
     .child_animation aside p:not(:last-child),

@@ -1,6 +1,5 @@
 /* Reset CSS and fonts */
 
-/* Start fonts */
 @font-face {
     font-family: "roboto";
     src: url("../fonts/Roboto/Roboto-BlackItalic.ttf") format('truetype');
@@ -10,18 +9,14 @@
     font-family: "dancing";
     src: url("../fonts/Dancing/static/DancingScript-Bold.ttf") format('truetype');
 }
-/* End fonts */
 
-/* Start reset css page */
 * {
     margin: 0;
     padding: 0;
     overflow-wrap: break-word;
     box-sizing: border-box;
 }
-/* End reset css page */
 
-/* Start body */
 body {
     width: 100%;
     height: 100vh;
@@ -31,4 +26,3 @@ body {
     background-attachment: fixed;
     margin-top: 200px;
 }
-/* End body */

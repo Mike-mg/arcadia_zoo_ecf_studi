@@ -107,7 +107,7 @@
     }
 }
 
-@media screen and (min-width: 501px) and (max-width: 576px) {
+@media screen and (min-width: 501px) and (max-width: 768px) {
 
     .container_habitats,
     .container_services {
@@ -207,7 +207,7 @@
     }
 }
 
-@media screen and (min-width: 577px) and (max-width:1024px) {
+@media screen and (min-width: 769px) and (max-width:1024px) {
 
     .container_habitats,
     .container_services {
@@ -241,7 +241,7 @@
         display: flex;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 25px;
+        gap: 50px;
     }
 
     .habitats__card__savane,
