@@ -20,7 +20,7 @@
         text-decoration: underline;
     }
 
-    .presentation p:not(:last-child) {
+    .presentation_services p:not(:last-child) {
         margin-bottom: 20px;
     }
 }
