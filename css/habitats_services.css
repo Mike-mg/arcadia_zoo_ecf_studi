@@ -77,8 +77,8 @@
 .services__card__child_entertainment__img,
 .services__card__small_train__img,
 .services__card__restaurant__img {
-    width: 140px;
-    height: 94px;
+    width: 138px;
+    height: 91px;
     border-radius: 15px 0 0 15px;
     border-right: 2px ridge rgb(248,250,229);
     grid-row: 1/3;
