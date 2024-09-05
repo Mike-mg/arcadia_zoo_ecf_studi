@@ -14,7 +14,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  gap: 250px;
+  gap: 350px;
 }
 
 header {
