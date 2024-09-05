@@ -6,7 +6,9 @@ body {
   background-image: url(/assets/login/images/background_login_mobile.webp);
   background-position: -150px;
   background-position: center;
+  background-attachment: fixed;
 }
+
 main{
   padding: 0;
 }
@@ -17,7 +19,7 @@ main{
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  padding: 100px 0;
+  padding: 75px 0;
   text-shadow: -1px 1px 1px rgb(50,25,5);
 }
 
