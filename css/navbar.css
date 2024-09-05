@@ -31,10 +31,10 @@ nav {
     height: 60px;
     border-radius: 50%;
     background-image: url(/images/background.webp);
-    border: solid 2px rgb(248, 250, 229);
-    box-shadow:
-        rgb(0, 0, 0) inset 0px 0px 5px 1px,
-        rgb(118, 69, 59) 0px 0px 5px 2px;
+    box-shadow: 
+    rgb(248,250,229) 0 0 0 1px,
+    rgb(50,25,5) 0px 3px 10px 1px;
+
 }
 
 .nav__header__h1 {
@@ -159,12 +159,11 @@ nav {
         display: flex;
         margin-bottom: 10px;
         width: 100px;
-        border-radius: 100%;
+        border-radius: 50%;
         background-image: url(/images/background.webp);
-        border: solid 3px rgb(248, 250, 229);
-        box-shadow:
-            rgb(0, 0, 0) inset 0px 5px 15px 2px,
-            rgb(50, 25, 5) 0px 0px 5px 2px;
+        box-shadow: 
+        rgb(248,250,229) 0 0 0 1px,
+        rgb(50,25,5) 0px 3px 10px 1px;
     }
 
     .show_container_nav_links {
