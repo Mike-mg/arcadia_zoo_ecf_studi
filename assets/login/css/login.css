@@ -2,15 +2,10 @@
 
 body {
   margin: 0;
-  padding: 0;
+  padding: 25px;
   background-image: url(/assets/login/images/background_login_mobile.webp);
   background-position: -150px;
   background-position: center;
-  background-attachment: fixed;
-}
-
-main{
-  padding: 0;
 }
 
 .container_login {
@@ -18,18 +13,27 @@ main{
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  height: 100vh;
+  height: 100%;
   padding: 75px 0;
   text-shadow: -1px 1px 1px rgb(50,25,5);
+
 }
 
 .container_login header {
-  width: min(75%, 375px);
-  padding: 20px;
-  border: 3px inset white;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+.container_login header h1{
+  width: min(100%, 375px);
+  padding: 15px;
+  border: 3px inset rgb(248,250,229);
   box-shadow:
-  inset white 0 0 10px 2px,
-  white 0 0 0px 1px,
+  inset rgba(50,25,5,0.5) 0 0 0 2px,
+  inset rgb(248,250,229) 0 0 10px 2px,
+  rgb(248,250,229) 0 0 0px 2px,
   rgb(50,25,5) 0 5px 10px 1px;
   font-size: 25px;
   text-align: center;
@@ -37,7 +41,6 @@ main{
   text-shadow: 3px 3px 1px rgb(50,25,5);
   backdrop-filter: blur(25px);
   border-radius: 15px;
-
 }
 
 .button_login {
