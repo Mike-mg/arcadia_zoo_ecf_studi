@@ -3,10 +3,9 @@
 body {
   margin: 0;
   padding: 0;
-  background-image: none;
-  /* background-image: url(/assets/login/images/background_login_mobile.webp); */
-  /* background-position: -150px; */
-  /* background-position: center; */
+  background-image: url(/assets/login/images/background_login_mobile.webp);
+  background-position: -150px;
+  background-position: center;
 }
 main{
   padding: 0;
@@ -18,7 +17,7 @@ main{
   justify-content: space-between;
   align-items: center;
   height: 100vh;
-  padding: 50px 0;
+  padding: 100px 0;
   text-shadow: -1px 1px 1px rgb(50,25,5);
 }
 
