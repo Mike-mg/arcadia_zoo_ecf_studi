@@ -9,3 +9,5 @@ function open_menu () {
     menu.classList.add('show_nav_links')
     container_menu.classList.add('show_container_nav_links')
 }
+
+
