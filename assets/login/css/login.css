@@ -10,6 +10,7 @@ body {
 .container_login {
   padding: 25px;
   height: 100vh;
+  margin-bottom: 50px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
