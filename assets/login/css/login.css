@@ -4,6 +4,7 @@ body {
   height: 100vh;
   margin: 0;
   background-image: url(/assets/login/images/background_login_mobile.webp);
+  background-clip: border-box;
   background-position: -150px;
   background-position: center;
   border: 3px solid blue;
