@@ -1,6 +1,7 @@
 /* CSS Login */
 
 body {
+  height: 100vh;
   margin: 0;
   background-image: url(/assets/login/images/background_login_mobile.webp);
   background-position: -150px;
@@ -9,8 +10,7 @@ body {
 
 .container_login {
   padding: 25px;
-  height: 100vh;
-  margin-bottom: 50px;
+  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -49,7 +49,7 @@ body {
 
 .button_login a {
   color: rgb(67, 118, 108);
-  font-weight: 700;
+  font-weight: bold;
   font-size: 18px;
   text-decoration: none;
 }
