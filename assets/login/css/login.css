@@ -2,6 +2,7 @@
 
 body {
   margin: 0;
+  padding: 0;
   background-image: url(/assets/login/images/background_login_mobile.webp);
   /* background-position: -150px; */
   background-position: center;
@@ -12,9 +13,8 @@ body {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 100%;
   height: 100vh;
-  padding: 50px 25px 75px 25px;
+  padding: 50px 0;
   text-shadow: -1px 1px 1px rgb(50,25,5);
 }
 
@@ -37,7 +37,7 @@ body {
 
 .button_login {
   width: min(75%, 225px);
-  padding: 10px;
+  padding: 10px 0;
   border: 3px inset rgba(248,250,229,1);
   box-shadow:
   inset rgb(67, 118, 108) 0 0 2px 1px,
