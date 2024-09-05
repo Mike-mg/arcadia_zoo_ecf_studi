@@ -8,7 +8,7 @@ body {
   background-position: center;
 }
 
-.container_login {
+/* .container_login {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -58,4 +58,4 @@ body {
   font-weight: 700;
   font-size: 18px;
   text-decoration: none;
-}
+} */
