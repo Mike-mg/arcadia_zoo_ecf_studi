@@ -1,58 +1,57 @@
 /* CSS Login */
 
 body {
-  height: 100vh;
+  max-height: 100vh;
   margin: 0;
   background-image: url(/assets/login/images/background_login_mobile.webp);
-  background-clip: border-box;
-  background-position: -150px;
-  background-position: center;
-  border: 3px solid blue;
+  background-position: -75px;
+  background-size: cover;
 }
 
 .container_login {
-  padding: 25px;
-  /* height: 100%; */
+  padding: 50px 25px;
   display: flex;
   flex-direction: column;
-  gap: 50px;
   justify-content: space-between;
   align-items: center;
-  padding: 75px 0;
-  border: 5px solid rgb(221, 68, 114);
+  gap: 250px;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 50px;
 }
 
 header aside {
-  width: 250px;
-  margin: 50px auto;
-  text-align: center;
-  padding: 15px;
-  box-shadow: rgb(255, 0, 0) 0 0 0 1px;
+  background-color: rgb(50,25,5);
+  border-radius: 15px;
+  color: rgb(255, 0, 0);
   letter-spacing: 2px;
   font-size: 20px;
   font-weight: bold;
-  background-color: rgb(50,25,5);
-  color: rgb(255, 0, 0);
+  text-align: center;
+  padding: 15px;
+  box-shadow: rgb(255, 0, 0) 0 0 0 1px;
   backdrop-filter: blur(15px);
-  border-radius: 15px; 
 }
 
 .container_login__header__h1  {
-  width: 250px;
-  margin: auto;
-  text-align: center;
-  padding: 15px;
   border: 3px inset rgb(248,250,229);
+  backdrop-filter: blur(15px);
+  border-radius: 15px; 
+  padding: 15px;
   box-shadow:
   inset rgba(50,25,5,0.5) 0 0 0 2px,
   inset rgb(248,250,229) 0 0 10px 2px,
   rgb(248,250,229) 0 0 0px 2px,
   rgb(50,25,5) 0 5px 10px 1px;
+  width: 250px;
+  text-align: center;
   font-size: 25px;
   color: rgb(248,250,229);
-  backdrop-filter: blur(15px);
-  border-radius: 15px; 
-  filter: drop-shadow(-2px 2px 2px black);
+  filter: drop-shadow(-2px 2px 2px rgb(50,25,5));
 }
 
 .button_login {
