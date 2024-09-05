@@ -5,7 +5,8 @@ body {
   width: 100%;
   height: 100vh;
   background-image: url(/assets/login/images/background_login_mobile.webp);
-  background-position: -150px;
+  /* background-position: -150px; */
+  background-position: center;
 }
 
 .container_login {
@@ -20,7 +21,8 @@ body {
 }
 
 .container_login header {
-  padding: 20px 0;
+  width: min(75%, 375px);
+  padding: 20px;
   border: 3px inset white;
   box-shadow:
   inset white 0 0 10px 2px,
@@ -36,7 +38,7 @@ body {
 }
 
 .button_login {
-  width: 100%;
+  width: min(75%, 225px);
   padding: 10px;
   border: 3px inset rgba(248,250,229,1);
   box-shadow:
