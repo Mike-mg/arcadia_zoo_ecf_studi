@@ -1,3 +1,4 @@
+// Show menu burger
 
 const button_menu = document.querySelector('.button_menu')
 const menu = document.querySelector('.nav_links')
