@@ -1,4 +1,20 @@
 <footer class="footer">
+    <fieldset class="footer__fieldset_resume">
+        <legend>Résumé de Arcadia - ZooParc</legend>
+        <p>Le parc animalier offre une expérience immersive avec une grande variété d'animaux exotiques.
+            Des visites guidées, des spectacles animaliers et des aires de jeux pour enfants sont disponibles.
+            Vous trouverez aussi des restaurants, des boutiques de souvenirs et des espaces de détente pour une journée inoubliable en famille.
+        </p>
+        <footer class="container_icons_payments">
+            <p>Moyens de paiements</p>
+            <span>
+                <img src="/assets/footer/images_&_logos/payment_mastercard.webp" alt="Icon mastercard" title="Mastercard">
+                <img src="/assets/footer/images_&_logos/payment_maestro.webp" alt="Icon maestro" title="Maestro">
+                <img src="/assets/footer/images_&_logos/payment_paypal.webp" alt="Icon Paypal" title="Paypal">
+                <img src="/assets/footer/images_&_logos/payment_visa.webp" alt="Icon visa" title="Visa">
+            </span>
+        </footer>
+    </fieldset>
     <fieldset class="footer__fieldset_info_park">
         <legend>Park information</legend>
         <section>
